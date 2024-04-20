@@ -1,4 +1,4 @@
-fn selection_sort<T, F>(arr: &mut [T], compare: &F)
+pub fn selection_sort<T, F>(arr: &mut [T], compare: &F)
 where
     F: Fn(&T, &T) -> bool,
 {

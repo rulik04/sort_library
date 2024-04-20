@@ -1,4 +1,4 @@
-fn insertion_sort<T, F>(arr: &mut [T], compare: &F)
+pub fn insertion_sort<T, F>(arr: &mut [T], compare: &F)
 where
     F: Fn(&T, &T) -> bool,
 {

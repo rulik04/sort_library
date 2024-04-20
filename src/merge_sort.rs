@@ -1,4 +1,4 @@
-fn merge_sort<T, F>(arr: &mut [T], compare: &F)
+pub fn merge_sort<T, F>(arr: &mut [T], compare: &F)
 where
     T: Clone + Default,
     F: Fn(&T, &T) -> bool,
