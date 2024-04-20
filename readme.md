@@ -19,8 +19,9 @@ To use this library locally, follow these steps:
     ```rust
     use sort_library::{insertion_sort, merge_sort, quick_sort, selection_sort};
     ```
+    ![img](https://github.com/rulik04/sort_library/blob/master/img/example1.png)
 
-    
+
 2. Navigate to the directory:
 
     ```bash
